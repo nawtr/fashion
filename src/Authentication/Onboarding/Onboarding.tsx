@@ -74,7 +74,7 @@ const sliders = [
 
 export default function Onboarding({
   navigation,
-}: StackNavigationProps<Routes, "Onboarding">) {
+}: StackNavigationProps<Routes, "OnBoarding">) {
   const scroll = useRef<Animated.ScrollView>(null);
   const { scrollHandler, x } = useScrollHandler();
 
